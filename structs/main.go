@@ -31,9 +31,10 @@ func main() {
 	// turn value into address with &value
 
 	// assign jimPointer to the memory address of jim
-	jimPointer := &jim
+	// jimPointer := &jim
+	// jimPointer.updateName("Jimmy")
 
-	jimPointer.updateName("Jimmy")
+	jim.updateName("Jimmy")
 	jim.print()
 
 }
